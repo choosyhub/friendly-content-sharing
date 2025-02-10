@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+
+# Production build (keep `dist` for GitHub Pages)
+!dist
+
+# Next.js or Vite output (if applicable)
+.next
+.out
+.vite
+
+# TypeScript build output
+*.tsbuildinfo
+
+# Testing
+coverage
+*.lcov
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor files
+.vscode/*
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
